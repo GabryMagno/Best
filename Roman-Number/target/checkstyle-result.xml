@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\Gabriele Magno\Desktop\New\Roman-Number\src\main\java\it\unipd\mtss\ArabsToRomans.java">
+</file>
+<file name="C:\Users\Gabriele Magno\Desktop\New\Roman-Number\src\main\java\it\unipd\mtss\NegativeNumberException.java">
+</file>
+<file name="C:\Users\Gabriele Magno\Desktop\New\Roman-Number\src\main\java\it\unipd\mtss\NumberBiggerThan4000Exception.java">
+</file>
+<file name="C:\Users\Gabriele Magno\Desktop\New\Roman-Number\src\main\java\it\unipd\mtss\NumberZeroException.java">
+</file>
+</checkstyle>
