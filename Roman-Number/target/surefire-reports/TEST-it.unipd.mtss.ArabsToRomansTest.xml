@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.ArabsToRomansTest" time="0.047" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.ArabsToRomansTest" time="0.065" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Gabriele Magno\Desktop\New\Roman-Number\target\test-classes;C:\Users\Gabriele Magno\Desktop\New\Roman-Number\target\classes;C:\Users\Gabriele Magno\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Gabriele Magno\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Gabriele Magno\Desktop\Best\Roman-Number\target\test-classes;C:\Users\Gabriele Magno\Desktop\Best\Roman-Number\target\classes;C:\Users\Gabriele Magno\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Gabriele Magno\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Temurin"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="IT"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\GABRIE~1\AppData\Local\Temp\surefire3618108114491493264\surefirebooter943651284539042822.jar C:\Users\Gabriele Magno\AppData\Local\Temp\surefire3618108114491493264 2024-05-16T23-21-16_356-jvmRun1 surefire6070669970274422500tmp surefire_03664654495563539205tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\Gabriele Magno\Desktop\New\Roman-Number\target\test-classes;C:\Users\Gabriele Magno\Desktop\New\Roman-Number\target\classes;C:\Users\Gabriele Magno\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Gabriele Magno\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.java.command" value="C:\Users\GABRIE~1\AppData\Local\Temp\surefire7622612668496624794\surefirebooter5181704333261991032.jar C:\Users\Gabriele Magno\AppData\Local\Temp\surefire7622612668496624794 2024-05-17T18-36-45_545-jvmRun1 surefire8516416277819763959tmp surefire_05636042802875061079tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Gabriele Magno\Desktop\Best\Roman-Number\target\test-classes;C:\Users\Gabriele Magno\Desktop\Best\Roman-Number\target\classes;C:\Users\Gabriele Magno\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Gabriele Magno\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Gabriele Magno"/>
     <property name="user.language" value="it"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre"/>
-    <property name="basedir" value="C:\Users\Gabriele Magno\Desktop\New\Roman-Number"/>
+    <property name="basedir" value="C:\Users\Gabriele Magno\Desktop\Best\Roman-Number"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\GABRIE~1\AppData\Local\Temp\surefire3618108114491493264\surefirebooter943651284539042822.jar;C:\\Users\\Gabriele Magno\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.8\\org.jacoco.agent-0.8.8-runtime.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\GABRIE~1\AppData\Local\Temp\surefire7622612668496624794\surefirebooter5181704333261991032.jar;C:\\Users\\Gabriele Magno\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.8\\org.jacoco.agent-0.8.8-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\GABRIE~1\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_412"/>
-    <property name="user.dir" value="C:\Users\Gabriele Magno\Desktop\New\Roman-Number"/>
+    <property name="user.dir" value="C:\Users\Gabriele Magno\Desktop\Best\Roman-Number"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,17 +61,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="NumberToLetter10" classname="it.unipd.mtss.ArabsToRomansTest" time="0.002"/>
+  <testcase name="NumberToLetter10" classname="it.unipd.mtss.ArabsToRomansTest" time="0.003"/>
   <testcase name="NumberToLetter20" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
   <testcase name="NumberToLetter50" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
   <testcase name="CasoParticolare4" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
   <testcase name="CasoParticolare9" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
+  <testcase name="convertNegative" classname="it.unipd.mtss.ArabsToRomansTest" time="0.001"/>
   <testcase name="CasoParticolare900" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
   <testcase name="NumberToLetter3" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
   <testcase name="NumberToLetter6" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
+  <testcase name="convertZero" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
   <testcase name="CasoMax3999" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
-  <testcase name="CasoParticolare40" classname="it.unipd.mtss.ArabsToRomansTest" time="0.001"/>
+  <testcase name="CasoParticolare40" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
+  <testcase name="convertGreaterThan5000" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
   <testcase name="NumberToLetter1000" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
   <testcase name="NumberToLetter100" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
-  <testcase name="NumberToLetter500" classname="it.unipd.mtss.ArabsToRomansTest" time="0"/>
+  <testcase name="NumberToLetter500" classname="it.unipd.mtss.ArabsToRomansTest" time="0.001"/>
 </testsuite>
