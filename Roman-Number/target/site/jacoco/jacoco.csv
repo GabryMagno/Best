@@ -1,5 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Roman-Number,it.unipd.mtss,NegativeNumberException,3,0,0,0,1,0,1,0,1,0
-Roman-Number,it.unipd.mtss,NumberBiggerThan4000Exception,3,0,0,0,1,0,1,0,1,0
-Roman-Number,it.unipd.mtss,ArabsToRomans,12,191,3,3,0,9,3,2,0,2
-Roman-Number,it.unipd.mtss,NumberZeroException,3,0,0,0,1,0,1,0,1,0
